@@ -11,7 +11,11 @@ RBACBOT_WEBHOOK_SECRET=*** RBACBOT_ACCESS_TOKEN=*** rbacbot github
 
 Once PRs are open, this will check the config and diff patch and find whom are in charge of these changes (configured via `.rbacbot.yaml` below).
 
-Notice that for all files, only those who met all access rules can trigger a `Review Aceept` check, once `numAcceptRequired` is met, the PR is automatically merged.
+For each diff, only those who met all access rules of all changed files can trigger a `Review Aceept` check, once `numAcceptRequired` is met, the PR is automatically merged.
+
+### Notice
+
+Please make sure the webhook can receive `Pull requests` and `Pull request reviews` events and `repo` scopes for token.
 
 
 ### Environment Variables
