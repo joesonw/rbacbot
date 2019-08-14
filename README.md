@@ -21,12 +21,12 @@ Please make sure the webhook can receive `Pull requests` and `Pull request revie
 ### Environment Variables
 
 |              Name             |              Default          |       Usage                    
-|:-----------------------------:|:-----------------------------:|:------------------------------:
+|:------------------------------|:-----------------------------:|:------------------------------
 |     RBACBOT_CONFIG_NAME       |       .rbacbot.yaml           | config file name in repo        
 |         RBACBOT_ADDR          |             :4567             | on which address webhook listens on
 |         RBACBOT_TTL           |           1h                  | config/diff patches in memory cache period
 |     RBACBOT_WEBHOOK_SECRET    |                               | web hook secret
- |     RBACBOT_ACCESS_TOKEN     |                               | oauth/personal access token for github api
+|      RBACBOT_ACCESS_TOKEN     |                               | oauth/personal access token for github api
  
  
  
