@@ -1,0 +1,9 @@
+settings:
+  numAcceptRequired: 2
+  mergeMethod: squash
+roles:
+  supremeleader:
+    - user: joesonw
+access:
+  '*':
+    - supremeleader
