@@ -42,6 +42,5 @@ roles:
 access:
   '*':  # file glob
     - supremeleader  # role name
- 
  ```
  
